@@ -9,7 +9,7 @@ In this project three main features of a data science project have been utilized
 3. **Model Deployment** - `fastAPI` and `Jinja2` are used to construct the API and serve HTML response.  
 
 **Interface**
-![Main web page](https://github.com/stevenpham1996/Data-Science/blob/8d9f5adbd98149f99f112c954cdf66f04ef99d36/Disaster_Respones_Classifier/images/interface.png)    
+![Main web page](https://github.com/stevenpham1996/Data-Science/blob/main/Disaster_Respones_Classifier/images/interface.png)   
 
 **Classification Response**
 ![Response](https://github.com/stevenpham1996/Data-Science/blob/8d9f5adbd98149f99f112c954cdf66f04ef99d36/Disaster_Respones_Classifier/images/Screenshot_1.png)  
