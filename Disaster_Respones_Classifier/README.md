@@ -73,33 +73,31 @@ app/run.py: Launch the web app to classify disaster tweet messages.
 # Instructions:  
 
 Run the below command from the terminal-
-- python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+- `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
 
 To run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file:
 
 Run the below command from the terminal-
-- python model/ada_classifier.py data/DisasterResponse.db models/classifier.pkl
+- `python model/ada_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
 Run the following command in the app's directory to run your web app-
-- python app.py
+- `python app.py`
 
 Open a browser and go to http://127.0.0.1:8000/. You can input any message and see the results.
 
 
 # Files
 
-app/templates/*: templates/html files for web application
+`app/templates/*`: templates/html files for web application
 
-data/process_data.py: Extract Train Load (ETL) pipeline used for data cleaning, feature extraction, and storing data in a SQLite database
+`data/process_data.py`: Extract Train Load (ETL) pipeline used for data cleaning, feature extraction, and storing data in a SQLite database
 
-models/train_classifier.py: A machine learning pipeline that loads data, trains a model, and saves the trained model as a .pkl file for later use
+`models/train_classifier.py`: A machine learning pipeline that loads data, trains a model, and saves the trained model as a .pkl file for later use
 
-app/run.py: This file is used to launch the web app to classify disaster tweet messages.
-
-disaster response.PNG: This is to see how the website looks like.
-  
+`app/run.py`: This file is used to launch the web app to classify disaster tweet messages.
+    
   
 # Acknowledgements
 
-Thank you Udacity and Figure Eight for providing the dataset of this project.
+Thank you to Figure Eight for providing the dataset of this project.
 
