@@ -1,0 +1,6 @@
+[submodule "Stock-Prediction-using-Sentiment-Analysis-and-Machine-Learning"]
+	path = Stock-Prediction-using-Sentiment-Analysis-and-Machine-Learning
+	url = https://github.com/stevenpham1996/Stock-Prediction-using-Sentiment-Analysis-and-Machine-Learning.git
+[submodule "Cluster-Analysis-and-Data-Visualization"]
+	path = Cluster-Analysis-and-Data-Visualization
+	url = https://github.com/stevenpham1996/Cluster-Analysis-and-Data-Visualization.git
